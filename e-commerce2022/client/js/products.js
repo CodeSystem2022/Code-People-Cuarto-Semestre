@@ -73,7 +73,7 @@ const productos = [
         productName: "shampoo para autos";
         price: 2000,
         quanty: 1,
-        img: "/client/media/shapoo para autos.png",
+        img: "/client/media/shapooparaautos.png",
     },
     {
 
