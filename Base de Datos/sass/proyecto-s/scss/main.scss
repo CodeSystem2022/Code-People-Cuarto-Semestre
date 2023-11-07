@@ -1,8 +1,10 @@
 $primary-color: rgb(90, 89, 28);
 $secundary-color: rgb(224, 124, 31);
 $tertiary-color: rgb(226, 226, 154);
+$quaternion-color:orange;
 $primary-tex-color: rgb(63, 38, 1);
 $font-stack: 'IBM Plex Sans', sans-serif;
+$paragraph-size: 1,5em;
 
 
 body{
@@ -11,7 +13,23 @@ body{
     padding: 0;
 }
 nav{
-    background-color: $primary-color;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: $primary-tex-color;
+    p{
+        font-size: 1.5;
+        padding-left: 36px;
+    }
+    .icons{
+        display: flex;
+        gap: 15px;
+        button{
+            background: none;
+            border-style: none;
+        }
+    }
 }
 main{
     background-color: $primary-color;
@@ -21,5 +39,21 @@ footer{
     background-color:$background; 
     width: 100%;
     height: 250px;   
+}
+article{
+    width: auto;
+    color:$primary-tex-color;
+    display: flex;
+    justify-content: space-around;
+    .info-section{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        gap:
+    }
+    .imagen-section{
+        width: 50%;
+        background-color: rgb(119, 109, 64);
+    }
 }
 
