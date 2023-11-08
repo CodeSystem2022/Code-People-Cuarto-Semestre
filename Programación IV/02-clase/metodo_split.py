@@ -1,14 +1,11 @@
 # help(str.split)
 
-cursos = 'java JavaScript Node Python Diseno'
-lista_cursos = cursos.split()
+cursos_separados_coma = 'Java,Python,Node,Javascript,Spring'
+lista_cursos = cursos_separados_coma.split(',', 2)
 print(f'Lista de cursos: {lista_cursos}')
-
 print(type(lista_cursos))
 
-cursos_separados_coma = 'java.JavaScript.Node.Python.Diseno'
-lista_cursos = cursos_separados_coma.split('.', 2)
+cursos_separados_coma = 'Java,Python,Node,Javascript,Spring'
+lista_cursos = cursos_separados_coma.split(',', 2)
 print(f'Lista de cursos: {lista_cursos}')
 print(len(lista_cursos))
-
-

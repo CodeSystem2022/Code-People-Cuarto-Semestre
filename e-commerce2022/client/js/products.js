@@ -5,7 +5,7 @@ const productos = [
         price: 550,
         quanty: 1,
         description: "aerosol desodorante de ambientes",
-        img: "/client/media/aerosoles.jpg",
+        img: "../media/aerosoles.jpg",
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ const productos = [
         price: 2000,
         quanty: 1,
         description: "cepillo mediano para barrido de pisos",
-        img: "/client/media/Escobillon-interiores-virulana.webp",
+        img: "../media/Escobillon-interiores-virulana.webp",
     },
     {
         id: 3,
@@ -21,7 +21,7 @@ const productos = [
         price: 430,
         quanty: 1,
         description: "guantes de latex para limpieza",
-        img: "/client/media/guantes.webp",
+        img: "../media/guantes.webp",
     }, 
     {
         id: 4,
@@ -29,16 +29,32 @@ const productos = [
         price: 640,
         quanty: 1,
         description: "bidón de 2L de lavandina de primera marca",
-        img: "/client/media/lavandina-ayudin-1-litro-clasica.webp",
+        img: "../media/lavandina-ayudin-1-litro-clasica.webp",
     },
+    {
+        id: 5,
+        productName: "Papel higienico",
+        price: 550,
+        quanty: 1,
+        description: "papel higiénico de 30m por 4 unidades",
+        img: "../media/higienol-papel-higienico-80-mts-hs.jpg",
+    }, 
+    {
+        id: 6,
 
+        productName: "Perfumina para piso",
+        price: 320,
+        quanty: 1,
+        description: "líquido limpiapisos con perfume",
+        img: "../media/Poett.webp",
+    }, 
     {
         id: 7,
         productName: "Trapo de piso",
         price: 270,
         quanty: 1,
         description: "trapo de piso calidad intermedia",
-        img: "/client/media/trapo-de-piso.webp",
+        img: "../media/trapo-de-piso.webp",
     }, 
      
 ]       
